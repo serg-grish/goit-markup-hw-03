@@ -446,55 +446,75 @@ background: #F5F4FA;
 
   /* ПОРТОФОЛИО */
 
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-left: -30px;
-  margin-top: -30px;
-}
-.card-set > .item {
-  flex-basis: calc(100% / 3 - 30px);
-
-  margin-left: 30px;
-  margin-top: 30px;
-}
-.item {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
-  width: 370px;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
   
-}
-.portfolio-title {
-  font-family: var(--main-font);
-  margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--navigation-color);
-  font-size: 18px; 
-}
-.portfolio-item {
-  font-family: var(--main-font);
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.87;
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.portfolio-name {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  border-top: none;
-  padding: 20px 24px;
-}
-}
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .portfolio .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+    padding-bottom: 94px;
+  }
+  
+  .card-set {
+    display: flex;
+    flex-wrap: wrap;
+  
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  
+  .card-set-item {
+    flex-basis: calc(100% / 3 - 30px);
+  
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  
+  .card-heading {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+  
+    letter-spacing: 0.06em;
+  
+    color: #212121;
+  }
+  
+  .card-text {
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+  
+    letter-spacing: 0.03em;
+  
+    color: #757575;
+  }
+  
+  .card-content {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-top: none;
+    padding: 20px 24px;
+  }
+  
+  .card-text {
+    margin-top: 5px;
+  }
+  
