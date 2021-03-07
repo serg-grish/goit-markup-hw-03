@@ -615,6 +615,16 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  
+  color: #2196f3;
+}
 
 .logo-text-footer {
   color: #ffffff;
