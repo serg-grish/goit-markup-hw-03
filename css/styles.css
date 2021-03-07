@@ -100,6 +100,9 @@ img {
 .nav-link:focus {
   color: #2196f3;
 }
+.header-contacts {
+  margin-right: 50px;
+}
 
 .header-mail-link {
   font-family: var(--main-font);
@@ -108,7 +111,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  margin-right: 50px;
 }
 
 .contacts-header-list {
@@ -169,8 +171,8 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  padding-left: 240px;
-  padding-right: 240px;
+  max-width: 696px;
+  margin: auto;
   margin-bottom: 30px;
 
   color: #ffffff;
@@ -248,8 +250,6 @@ img {
 }
 
 .features-item {
-  width: 270px;
-  height: 101px;
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -260,7 +260,6 @@ img {
 /* ========== WHAT WE ARE DOING ============ */
 
 .we-doing {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -299,26 +298,6 @@ img {
   margin-top: 30px;
 }
 
-.we-doing-img1 {
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1061px;
-}
-
-.we-doing-img2 {
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1061px;
-}
-
-.we-doing-img3 {
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1061px;
-}
 
 /* ========= END WHAT WE ARE DOING ========= */
 
@@ -355,10 +334,6 @@ img {
 }
 
 .team-list {
-  width: 1170px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
   display: flex;
   /* justify-content: space-between; */
   margin-left: -30px;
