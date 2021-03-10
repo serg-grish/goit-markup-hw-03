@@ -101,7 +101,7 @@ img {
   color: #2196f3;
 }
 .header-contacts {
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .header-mail-link {
@@ -408,41 +408,7 @@ img {
   margin-top: 30px;
 }
 
-.team-img1 {
-  width: 270px;
-  height: 260px;
-  left: 215px;
-  top: 1635px;
 
-  border-radius: 0px;
-}
-
-.team-img2 {
-  width: 270px;
-  height: 260px;
-  left: 515px;
-  top: 1635px;
-
-  border-radius: 0px;
-}
-
-.team-img3 {
-  width: 270px;
-  height: 260px;
-  left: 815px;
-  top: 1635px;
-
-  border-radius: 0px;
-}
-
-.team-img4 {
-  width: 270px;
-  height: 260px;
-  left: 1115px;
-  top: 1635px;
-
-  border-radius: 0px;
-}
 
 .team-item-title {
   font-family: var(--main-font);
